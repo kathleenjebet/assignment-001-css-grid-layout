@@ -18,7 +18,6 @@ main{
     display: flex;
     justify-content: center;
     text-align: center;
-     
     }
      
 #leftsidebar{
@@ -26,27 +25,34 @@ main{
     grid-area: leftsidebar;
     border-radius: 10px;
     color: white;
-    ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
 }
 #maincontent{
     background-color: #8BF10A;
     grid-area: maincontent;
     border-radius: 10px;
     color: white; 
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
 #rightsidebar{
     background-color: #7FC242;
     grid-area: rightsidebar;
     color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 footer{
     background-color: #F57E20;
     grid-area: footer;
     color: white;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 
 }
